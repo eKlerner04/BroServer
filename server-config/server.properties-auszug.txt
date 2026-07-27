@@ -1,0 +1,22 @@
+# === Diese Zeilen in der server.properties auf Nitrado setzen ===
+# (Nitrado hat dafuer meist auch Felder im Webinterface unter "Einstellungen")
+#
+# WICHTIG: Diese Welt muss NEU generiert werden, damit die Void-Welt entsteht.
+# Also entweder eine frische Welt erstellen oder die alte Welt loeschen/umbenennen.
+
+# Leere "Void"-Welt (nur Luft, unsere Inseln schweben darin)
+level-type=minecraft:flat
+generator-settings={"layers":[{"block":"minecraft:air","height":1}],"biome":"minecraft:the_void"}
+
+# Sinnvolle Grundeinstellungen fuer den Bau-Wettbewerb
+gamemode=survival
+difficulty=peaceful
+pvp=false
+spawn-monsters=false
+allow-nether=false
+generate-structures=false
+online-mode=true
+max-players=8
+
+# Der Name der Welt (merken – dort landet spaeter das Datapack unter world/datapacks)
+level-name=world

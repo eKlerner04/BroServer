@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "BroServer Bau-Wettbewerb - identische Inseln fuer alle",
+    "min_format": 101,
+    "max_format": 107
+  }
+}
